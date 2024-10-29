@@ -31,6 +31,10 @@ This project demonstrates AI-based audio replacement for videos. The app allows 
 
 Ensure to replace "API" in the code with your actual Hugging Face API key to use the TTS model effectively.
 
+## Environment Variables
+
+Create a `.env` file in the project root and add your Hugging Face API key:
+
 ## Dependencies
 
 •streamlit
