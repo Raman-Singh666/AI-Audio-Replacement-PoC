@@ -36,4 +36,8 @@ This project demonstrates AI-based audio replacement for videos. The app allows 
 
 •This app currently works best with English audio. Other languages may require different models.
 
+## Screenshot
+
+![image](https://github.com/user-attachments/assets/66c4b9f1-be48-4c41-bb6c-365349f77fea)
+
 
