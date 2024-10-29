@@ -20,7 +20,7 @@ This project demonstrates AI-based audio replacement for videos. The app allows 
 
 ## Usage
 
-1. Replace the "API" in the app.py file with your Hugging Face API key.
+1. Replace the "HUGGING_FACE_API_KEY" in the app.py file with your Hugging Face API key.
 2. Run the Streamlit app:
    streamlit run app.py
 3. Open the Streamlit app in your browser.
