@@ -6,7 +6,7 @@ This project demonstrates AI-based audio replacement for videos. The app allows 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone <https://github.com/Raman-Singh666/AI-Audio-Replacement-PoC>
    cd poc-streamlit
 
 2. Install dependencies:
