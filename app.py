@@ -8,7 +8,7 @@ st.title("AI Audio Replacement PoC")
 uploaded_file = st.file_uploader("Upload a Video", type=["mp4", "avi", "mov", "mpeg"])
 
 # Hugging Face API key
-hugging_face_api_key = "API"
+hugging_face_api_key = "API" # Replace the "API" with your actual Hugging Face API key
 
 # Function to transcribe audio from video
 def transcribe_audio(video_path):
