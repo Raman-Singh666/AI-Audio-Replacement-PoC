@@ -27,6 +27,10 @@ def generate_ai_voice(text, retries=3, wait_time=20):
         "inputs": text,  
     }
 
+    # Create the output directory if it doesn't exist
+    output_dir = './output'
+    os.makedirs(output_dir, exist_ok=True)
+
     for attempt in range(retries):
         # st.write(f"Attempt {attempt + 1} of {retries}...")
         # st.write(f"Payload: {payload}")  # Print the payload for debugging
@@ -36,7 +40,7 @@ def generate_ai_voice(text, retries=3, wait_time=20):
 
         if response.status_code == 200:
             if response.headers.get('Content-Type').startswith('audio/'):
-                audio_file_path = 'output_audio.wav'
+                audio_file_path = os.path.join(output_dir, 'output_audio.wav')  # Save to output directory
                 with open(audio_file_path, 'wb') as audio_file:
                     audio_file.write(response.content)
                 st.success(f"AI voice audio saved as {audio_file_path}")
