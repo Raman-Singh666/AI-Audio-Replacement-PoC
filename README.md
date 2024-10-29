@@ -34,6 +34,7 @@ Ensure to replace "API" in the code with your actual Hugging Face API key to use
 ## Environment Variables
 
 Create a `.env` file in the project root and add your Hugging Face API key:
+HUGGING_FACE_API_KEY=your_hugging_face_api_key
 
 ## Dependencies
 
